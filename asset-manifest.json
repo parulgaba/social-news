@@ -1,16 +1,16 @@
 {
-  "main.css": "/social-news/static/css/main.b5cb1feb.chunk.css",
-  "main.js": "/social-news/static/js/main.0bbf5e66.chunk.js",
-  "main.js.map": "/social-news/static/js/main.0bbf5e66.chunk.js.map",
+  "main.css": "/social-news/static/css/main.05a679f4.chunk.css",
+  "main.js": "/social-news/static/js/main.637c8127.chunk.js",
+  "main.js.map": "/social-news/static/js/main.637c8127.chunk.js.map",
   "static/css/1.24af5c36.chunk.css": "/social-news/static/css/1.24af5c36.chunk.css",
   "static/js/1.1f28a602.chunk.js": "/social-news/static/js/1.1f28a602.chunk.js",
   "static/js/1.1f28a602.chunk.js.map": "/social-news/static/js/1.1f28a602.chunk.js.map",
   "runtime~main.js": "/social-news/static/js/runtime~main.240c787f.js",
   "runtime~main.js.map": "/social-news/static/js/runtime~main.240c787f.js.map",
   "static/media/bootstrap.css": "/social-news/static/media/glyphicons-halflings-regular.89889688.svg",
-  "static/css/main.b5cb1feb.chunk.css.map": "/social-news/static/css/main.b5cb1feb.chunk.css.map",
+  "static/css/main.05a679f4.chunk.css.map": "/social-news/static/css/main.05a679f4.chunk.css.map",
   "static/css/1.24af5c36.chunk.css.map": "/social-news/static/css/1.24af5c36.chunk.css.map",
   "index.html": "/social-news/index.html",
-  "precache-manifest.16d496741bde9cee82c5b8fb6f22302c.js": "/social-news/precache-manifest.16d496741bde9cee82c5b8fb6f22302c.js",
+  "precache-manifest.35f9dc57798319d557deb967e6d1afd7.js": "/social-news/precache-manifest.35f9dc57798319d557deb967e6d1afd7.js",
   "service-worker.js": "/social-news/service-worker.js"
 }
