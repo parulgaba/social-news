@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b53a387403e7b3a72224",
-    "url": "/social-news/static/css/main.334baf3b.chunk.css"
+    "revision": "0bbf5e66f1463c0684ed",
+    "url": "/social-news/static/css/main.b5cb1feb.chunk.css"
   },
   {
-    "revision": "b53a387403e7b3a72224",
-    "url": "/social-news/static/js/main.b53a3874.chunk.js"
+    "revision": "0bbf5e66f1463c0684ed",
+    "url": "/social-news/static/js/main.0bbf5e66.chunk.js"
   },
   {
     "revision": "1f28a60286c1a31a4eed",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/social-news/static/js/runtime~main.240c787f.js"
   },
   {
-    "revision": "fa2772327f55d8198301fdb8bcfc8158",
-    "url": "/social-news/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "revision": "f4769f9bdb7466be65088239c12046d1",
+    "url": "/social-news/static/media/glyphicons-halflings-regular.f4769f9b.eot"
   },
   {
     "revision": "448c34a56d699c29117adc64c43affeb",
     "url": "/social-news/static/media/glyphicons-halflings-regular.448c34a5.woff2"
   },
   {
-    "revision": "f4769f9bdb7466be65088239c12046d1",
-    "url": "/social-news/static/media/glyphicons-halflings-regular.f4769f9b.eot"
+    "revision": "fa2772327f55d8198301fdb8bcfc8158",
+    "url": "/social-news/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   {
     "revision": "e18bbf611f2a2e43afc071aa2f4e1512",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/social-news/static/media/glyphicons-halflings-regular.89889688.svg"
   },
   {
-    "revision": "3352a24fd3f74cae67238f5157326b6a",
+    "revision": "4a78b7d089d98037e40b8be27ee61c51",
     "url": "/social-news/index.html"
   }
 ];
