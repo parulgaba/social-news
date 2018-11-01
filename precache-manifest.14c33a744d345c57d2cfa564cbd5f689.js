@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/social-news/static/js/runtime~main.240c787f.js"
   },
   {
-    "revision": "448c34a56d699c29117adc64c43affeb",
-    "url": "/social-news/static/media/glyphicons-halflings-regular.448c34a5.woff2"
-  },
-  {
     "revision": "fa2772327f55d8198301fdb8bcfc8158",
     "url": "/social-news/static/media/glyphicons-halflings-regular.fa277232.woff"
+  },
+  {
+    "revision": "448c34a56d699c29117adc64c43affeb",
+    "url": "/social-news/static/media/glyphicons-halflings-regular.448c34a5.woff2"
   },
   {
     "revision": "f4769f9bdb7466be65088239c12046d1",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/social-news/static/media/glyphicons-halflings-regular.89889688.svg"
   },
   {
-    "revision": "2e8cf4262617bd5a867e395824171ffb",
+    "revision": "3352a24fd3f74cae67238f5157326b6a",
     "url": "/social-news/index.html"
   }
 ];
