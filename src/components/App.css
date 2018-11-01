@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 24;
   color: white;
 }
 
@@ -40,20 +40,20 @@
   margin: 10px;
   color: rgb(12, 11, 11);
   line-height: 2rem;
-  font-size: calc(7px + 2vmin);
+  font-size: 16;
 }
 
 .link {
   margin: 10px;
   color: #337ab7;
   line-height: 2rem;
-  font-size: calc(7px + 2vmin);
+  font-size: 16;
 }
 
 .title {
   margin: 10px;
   color: #444;
-  font-size: calc(12px + 2vmin);
+  font-size: 24;
   font-weight: 600;
   line-height: 2.5rem;
 }

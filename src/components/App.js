@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">NYTimes News</header>
+        <h2 className="App-header">NYTimes News</h2>
         <TopContainer />
       </div>
     );
