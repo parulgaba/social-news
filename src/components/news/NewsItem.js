@@ -8,6 +8,9 @@ class NewsItem extends React.Component {
     open: false
   };
 
+  /**
+   * Toggles details on clicking the article title/image.
+   */
   handleToggle = () => {
     if (!this.state.open) {
       this.setState({ open: true });
@@ -16,10 +19,9 @@ class NewsItem extends React.Component {
     }
   };
 
-  handleClose = () => {
-    this.setState({ open: false });
-  };
-
+  /**
+   * Returns a clickable news item which displays title and thumbnail of an article.
+   */
   render() {
     const { article } = this.props;
     const { open } = this.state;

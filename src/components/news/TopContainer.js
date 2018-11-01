@@ -32,6 +32,9 @@ class TopContainer extends Component {
     return news.map(item => <NewsItem key={item.url} article={item} />);
   }
 
+  /**
+   * Renders paginated news articles.
+   */
   render() {
     const { isLoading } = this.state;
     return (

@@ -20,6 +20,9 @@ class Store extends ReduceStore {
         result = { isLoading: true, activePage: action.activePage };
         return result;
 
+      /**
+       * Fetches all articles state with current page's articles
+       */
       case ActionTypes.RECEIVE_NEWS:
         result = {
           isLoading: false,
@@ -32,7 +35,9 @@ class Store extends ReduceStore {
           totalItemsCount: action.response.length
         };
         return result;
-
+      /**
+       * Sets state with current page's articles
+       */
       case ActionTypes.CHANGE_PAGE:
         result = {
           isLoading: false,
