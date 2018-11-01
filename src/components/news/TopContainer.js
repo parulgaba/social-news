@@ -36,22 +36,22 @@ class TopContainer extends Component {
     const { isLoading } = this.state;
     return (
       <div>
-        <div className="news-container">
+        <div>
           {!isLoading ? this.renderItems() : "Loading"}
+          <Pagination
+            firstPageText={<i className="glyphicon glyphicon-chevron-left" />}
+            lastPageText={<i className="glyphicon glyphicon-chevron-right" />}
+            prevPageText={<i className="glyphicon glyphicon-menu-left" />}
+            nextPageText={<i className="glyphicon glyphicon-menu-right" />}
+            activePage={this.state.activePage}
+            itemsCountPerPage={ITEMS_PER_PAGE}
+            totalItemsCount={this.state.totalItemsCount}
+            onChange={this.handlePageChange}
+            pageRangeDisplayed={Math.ceil(
+              this.state.totalItemsCount / ITEMS_PER_PAGE
+            )}
+          />
         </div>
-        <Pagination
-          firstPageText={<i className="glyphicon glyphicon-chevron-left" />}
-          lastPageText={<i className="glyphicon glyphicon-chevron-right" />}
-          prevPageText={<i className="glyphicon glyphicon-menu-left" />}
-          nextPageText={<i className="glyphicon glyphicon-menu-right" />}
-          activePage={this.state.activePage}
-          itemsCountPerPage={ITEMS_PER_PAGE}
-          totalItemsCount={this.state.totalItemsCount}
-          onChange={this.handlePageChange}
-          pageRangeDisplayed={Math.ceil(
-            this.state.totalItemsCount / ITEMS_PER_PAGE
-          )}
-        />
       </div>
     );
   }

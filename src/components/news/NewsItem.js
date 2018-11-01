@@ -27,14 +27,31 @@ class NewsItem extends React.Component {
 
     return (
       <div className="column">
-        <div className="news-card">
-          <h4
-            className="title"
-            style={{ cursor: "pointer" }}
-            onClick={this.handleToggle}
-          >
-            {article.title}
-          </h4>
+        <div className="news-container">
+          <div className="news">
+            <img
+              src={article.multimedia.length ? article.multimedia[0].url : ""}
+              onClick={this.handleToggle}
+              className="img-responsive"
+            />
+            <div>
+              <h4
+                className="title"
+                style={{ cursor: "pointer" }}
+                onClick={this.handleToggle}
+              >
+                {article.title}
+              </h4>
+              <a
+                className="link"
+                href={article.short_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                NYT Full Article
+              </a>
+            </div>
+          </div>
           {open ? (
             <div>
               <div className="excerpt">{article.abstract}</div>
@@ -44,14 +61,6 @@ class NewsItem extends React.Component {
               <div className="excerpt">{publishedDate.toLocaleString()}</div>
             </div>
           ) : null}
-          <a
-            className="link"
-            href={article.short_url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            NYT Full Article
-          </a>
         </div>
       </div>
     );
