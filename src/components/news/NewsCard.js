@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "../App.css";
-
 class NewsCard extends React.Component {
   state = {
     open: false

@@ -38,13 +38,15 @@ class TopContainer extends Component {
   render() {
     const { isLoading } = this.state;
     return (
-      <div>
-        {!isLoading ? this.renderItems() : "Loading"}
+      <div className="center-align">
+        {!isLoading ? (
+          this.renderItems()
+        ) : (
+          <div class="progress">
+            <div class="indeterminate" />
+          </div>
+        )}
         <Pagination
-          firstPageText={<i className="glyphicon glyphicon-chevron-left" />}
-          lastPageText={<i className="glyphicon glyphicon-chevron-right" />}
-          prevPageText={<i className="glyphicon glyphicon-menu-left" />}
-          nextPageText={<i className="glyphicon glyphicon-menu-right" />}
           activePage={this.state.activePage}
           itemsCountPerPage={ITEMS_PER_PAGE}
           totalItemsCount={this.state.totalItemsCount}
