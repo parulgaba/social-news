@@ -1,6 +1,5 @@
 .App {
-  text-align: center;
-  max-width: 800px;
+  max-width: 50%;
   margin: 0 auto;
 }
 
@@ -18,64 +17,4 @@
   justify-content: center;
   font-size: calc(7px + 2vmin);
   color: white;
-}
-
-.news {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  vertical-align: center;
-}
-
-.column {
-  text-align: left;
-  padding: 2px;
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.excerpt {
-  margin: 10px;
-  color: rgb(12, 11, 11);
-  line-height: 2rem;
-  font-size: calc(1.5px + 2vmin);
-}
-
-.link {
-  margin: 10px;
-  color: #337ab7;
-  line-height: 2rem;
-  font-size: calc(1.5px + 2vmin);
-}
-
-.title {
-  margin: 10px;
-  color: #444;
-  font-size: calc(4px + 2vmin);
-  font-weight: 600;
-  line-height: 2.5rem;
-}
-
-.news-container {
-  margin: 10px auto 10px auto;
-  padding: 10px;
-  width: 100%;
-  max-width: 100%;
-  background-color: rgb(245, 239, 239);
-  margin: 10px auto 10px auto;
-  box-shadow: 0 2px 4px rgba(#000, 0.2);
-  border-radius: 4px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
